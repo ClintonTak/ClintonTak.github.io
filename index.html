@@ -4,11 +4,16 @@
   <title>Clinton Tak Personal Website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="java/java.js"></script>
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/java.js"></script>
+  <script>
+
+</script>
 </head>
 <body>
 
@@ -16,16 +21,15 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="./index.html">Home</a></li>
-	  <li><a href="html/about.html">About</a></li>
-	  <li><a href="html/resume.html">Resume</a></li>
-	  <li><a href="html/contact.html">Contact</a></li>
+    <li class="active"><a><homeButton>Home</homeButton></a></li>
+	  <li><a><aboutButton>About</aboutButton></a></li>
+	  <li><a><resumeButton>Resume</resumeButton></a></li>
+	  <li><a><contactButton>Contact</contactButton></a></li> 
     </ul>
   </div>
 </nav>
 
-
-<div class="well">
+<div class="well" id = "home">
   <h1>This is my personal website, it is still currently under construction.</h1>
   <img src="images/construction.jpg" alt="Mountain View" style="width:304px;height:228px;">
   <p> In the mean time feel free to take a look at my  <a href="https://github.com/ClintonTak">github</a> page or my <a href="https://www.linkedin.com/in/clintontak/">linkedin profile</a>.
@@ -33,5 +37,36 @@
   <p> hi jessi</p> 
 </div>
 
+<div class="well" id = "about">
+  <h1>This is my about page</h1>
+  <p> hi jessi</p> 
+</div>
+
+<div class="well" id = "resume">
+  <h1>This is my resume page</h1>
+</div>
+
+<div class="well" id = "contact">
+  <h1>This is my contact page</h1> 
+</div>
+
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
