@@ -1,36 +1,49 @@
 $(document).ready(function(){
 	$("#navHome").addClass('active');
-	$("#home").show();
-    $("#about").hide();
-    $("#resume").hide();
-    $("#contact").hide();
+	$(".home").show();
+    $(".about").hide();
+    $(".resume").hide();
+    $(".projects").hide();
+    $(".contact").hide();
 
     $("homeButton").click(function(){
-        $("#home").show();
-        $("#about").hide();
-        $("#resume").hide();
-        $("#contact").hide();
+        $(".home").show();
+        $(".about").hide();
+        $(".resume").hide();
+        $(".projects").hide();
+        $(".contact").hide();
     });
 
     $("aboutButton").click(function(){
-        $("#home").hide();
-        $("#about").show();
-        $("#resume").hide();
-        $("#contact").hide();
+        $(".home").hide();
+        $(".about").show();
+        $(".resume").hide();
+        $(".projects").hide();
+        $(".contact").hide();
     });
 
-    $("ResumeButton").click(function(){
-        $("#home").hide();
-        $("#about").hide();
-        $("#resume").show();
-        $("#contact").hide();
+    $("resumeButton").click(function(){
+        $(".home").hide();
+        $(".about").hide();
+        $(".resume").show();
+        $(".projects").hide();
+        $(".contact").hide();
+    });
+
+    $("projectsButton").click(function(){
+        $(".home").hide();
+        $(".about").hide();
+        $(".resume").hide();
+        $(".projects").show();
+        $(".contact").hide();
     });
 
     $("contactButton").click(function(){
-        $("#home").hide();
-        $("#about").hide();
-        $("#resume").hide();
-        $("#contact").show();
+        $(".home").hide();
+        $(".about").hide();
+        $(".resume").hide();
+        $(".contact").show();
+        $(".projects").hide();
     });
 
     $('ul li').click(function(){
