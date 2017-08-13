@@ -42,9 +42,18 @@ body
 	background-position: center center;
 	background-size: cover
 }
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
 
+.navbar-brand{
+	margin-top: -10px;
+}
 
-
+.nav{
+	padding-left:95px;
+}
 
 
 
