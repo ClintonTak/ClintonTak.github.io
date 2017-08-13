@@ -33,27 +33,17 @@ body
     margin: 0 auto;
 }
 
-#profilePhoto{
-	background-image: url("../images/profilephoto.jpg")
+.profilePic{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover
 }
 
 
-#navAbout
-{
-}
-
-#navResume
-{
-}
-
-#navProjects
-{
-}
-
-#navContact
-{
-
-}
 
 
 
